@@ -579,6 +579,10 @@
 .m-h1-1{
     font-size: 6rem;
 }
+.goldfish{
+    font-size: 1.5rem;
+}
+
 .phonebox >h1{
     line-height: 60px;
     margin:2px  ;
@@ -615,6 +619,11 @@
     .m-h1-1{
         font-size: 4rem;
     }
+
+    .goldfish{
+        font-size: 1.25rem;
+    }
+
     body{
         width: 100%;
     }
@@ -631,7 +640,7 @@
     .fooditem{
         display: flex;
         justify-content: space-between;
-        margin: 8px 5px;
+        margin: 8px -1px;
         border-radius: 25px;
         box-shadow: 5px 5px 5px;
         width: 400px;
