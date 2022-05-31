@@ -213,7 +213,9 @@
     width: 600px;
     text-align: center;
 }
-
+.newimg{
+    width: 400px;
+}
 .i-sec-h1-2{
     position: absolute; bottom: -1600px; right: 0px; font-size: 25px; width: 600px;
 }
