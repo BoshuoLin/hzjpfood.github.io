@@ -5,29 +5,21 @@
     <meta charset="utf-8">
     <title>後庄日式料理</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="後庄日式料理" name="keywords">
 
-    <!-- Google Web Fonts -->
+    <!-- Google字體 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
         rel="stylesheet">
-
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
+    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -48,24 +40,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="javascript://" onclick="window.open('menu.html','_blank','top=100,left=200,width=390,height=700')" class="nav-item nav-link phone-fonts"
-                style="font-size: 1.5rem; margin-top: -4px;"><i class="bi bi-phone"></i></a>
-                <a href="index.html" class="nav-item nav-link offont">首頁</a>
-                <a href="about.html" class="nav-item nav-link offont ">本店介紹</a>
+                <a href="javascript://"
+                    onclick="window.open('about.html','_blank','top=100,left=200,width=390,height=700')"
+                    class="nav-item nav-link phone-fonts" style="font-size: 1.5rem; margin-top: -4px;"><i
+                        class="bi bi-phone"></i></a>
+                <a href="index.html" class="nav-item  nav-link offont">首頁</a>
+                <a href="about.html" class="nav-item nav-link offont">本店介紹</a>
                 <a href="food.html" class="nav-item nav-link offont">美味菜單</a>
                 <a href="olmenu.html" class="nav-item nav-link offont">線上點餐</a>
-                <div target="_blank" class="nav-item dropdown">
-                    <a href="contact.html" class="nav-item nav-link active dropdown-toggle offont">聯繫我們</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="#intelligence" class="dropdown-item offont">聯絡資訊</a>
-                        <hr>
-                        <a href="#contactus" class="dropdown-item offont">回報客服</a>
-                    </div>
-                </div>
+                <a href="contact.html" class="nav-item nav-link offont">聯繫我們</a>
             </div>
-            <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=495uwaus"
-                class="btn btn-primary py-4 px-lg-5 d-none d-lg-block offont" style="color: chartreuse;">LINE 後庄日式小吃<i
-                    class="fa fa-arrow-right ms-3" style="color: chartreuse;"></i></a>
+        </div>
+        <a target="_blank" href="https://liff.line.me/1645278921-kWRPP32q/?acco untId=495uwaus"
+            class="btn btn-primary py-4 px-lg-5 d-none d-lg-block offont" style="color: chartreuse;">LINE 後庄日式小吃<i
+                class="fa fa-arrow-right ms-3" style="color: chartreuse;"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -76,7 +64,8 @@
         style="background-image: url(img/c-bg-已修復.png); background-attachment: fixed; height: 100vh;">
         <div class="container col-12 ">
             <div class="row con-logo justify-content-center">
-                <img class="col-12 animate__animated animate__fadeIn animate__delay-1s toplogo" src="img/m-logo.png" alt="">
+                <img class="col-12 animate__animated animate__fadeIn animate__delay-1s toplogo" src="img/m-logo.png"
+                    alt="">
             </div>
         </div>
     </div>
@@ -2412,13 +2401,6 @@
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
@@ -2429,8 +2411,8 @@
             var total_qty = 0;//總計
             var output_text;
             var item_list = "";
-            var name_ary = new Array("鮭魚生魚片", "黃金魚生魚片", "綜合生魚片", "旗魚生魚片", "和風鱈魚肝", "和風沙拉", "魚卵沙拉", "鮮蝦沙拉", "花枝沙拉", "蟹肉沙拉", "綜合沙拉", "冷筍沙拉", "醋味花枝", "蘆筍沙拉", "和風洋蔥", "涼拌韭菜", "綜合手卷", "蝦手卷", "蘆筍手卷", "花生豆腐", "綜合壽司", "海苔壽司", "豆皮壽司", "紅燒鰻魚", "奶油牛肉", "蠔油牛肉", "炒小卷", "炒鮮干貝", "炒三鮮", "海鮮娃娃菜", "蔥爆牛肉", "蔥爆松阪豬", "炒山豬肉", "空心菜炒牛肉", "空心菜炒羊肉", "炒鹹豬肉", "奶油雞片", "奶油白蝦", "鹹蛋豆腐", "宮保蝦仁", "糖醋排骨", "奶油杏鮑菇", "紅燒田雞", "鹹酥田雞", "豆瓣田雞", "洋蔥蝦仁", "炒花枝", "炒田雞", "炒蝦子", "宮保雞丁", "豆豉蚵", "炒娃娃菜", "蝦仁蛋", "丁香花生", "客家小炒", "鹹蛋絲瓜", "青龍丁香", "炒山蘇", "炒水蓮", "炒鴨腸", "黃瓜炒魷魚", "絲瓜炒蛤", "炒蛤仔", "炒蘆筍", "炒香菇", "炒螺肉", "炒山苦瓜", "炒金針花", "炒杏鮑菇", "蔥蛋", "菜豧蛋", "炒青菜", "鐵板牛小排", "鐵板牛柳", "鐵板鴕鳥肉", "鐵板松阪豬", "鐵板小卷", "鐵板豆腐", "鐵板雞柳", "鐵板蚵", "胡椒鳳螺", "三杯小卷", "三杯花枝", "三杯雞", "三杯下巴", "三杯田雞", "三杯杏鮑菇", "金沙鱈魚", "金沙小卷", "金沙蝦仁", "金沙花枝", "金沙豆腐", "金沙香菇", "金沙杏鮑菇", "金沙雞塊", "麻油腰子", "麻油松阪豬", "麻油田雞", "麻油蚵", "麻油雞絲", "鹹酥鱈魚", "炸小卷", "鹹酥龍珠", "鹹酥蝦", "鹹酥田雞", "鹹酥下巴", "鳳梨蝦球", "炸水晶魚", "一口蟹", "炸花枝", "炸蚵酥", "炸絲瓜", "炸香菇", "炸杏鮑菇", "炸魚排", "炸豬排", "炸蝦捲", "炸雞塊", "炸鰻魚", "烤鳳螺", "烤軟絲仔", "烤鮭魚頭", "味噌魚", "烤鹹豬肉", "烤松阪豬", "烤白蝦", "烤青魚", "烤魚肚", "烤花枝", "烤牛小排", "烤雞腿", "烤秋刀魚", "烤下巴", "鍋燒意麵", "鍋燒烏龍麵", "鍋燒雞絲麵", "鍋燒冬粉", "海產粥", "蝦仁炒飯", "炒意麵", "炒烏龍麵","金牌啤酒","百威啤酒","百威(小) ","台灣啤酒","海尼根","海尼根(小) ","白虎啤酒","新銀啤酒","58高粱(小) ","58高粱","紅標高粱","酒玉泉清酒","烏龍茶","麥仔茶","每朝健康","維他露P","蘋果西打","美粒果","蔓越莓汁","芭樂汁","石蓮花汁","礦泉水");
-            var price_ary = new Array("120", "120", "80", "80", "150", "100", "100", "100", "120", "80", "80", "80", "80", "60", "50", "40", "40", "35", "30", "40", "30", "30", "30", "250", "250", "180", "180", "180", "180", "180", "180", "180", "150", "150", "150", "150", "150", "150", "150", "150", "150", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120", "100", "100", "100", "100", "100", "100", "100", "80", "80", "80", "80", "80", "80", "80", "80", "80", "60", "60", "50", "200", "200", "180", "180", "180", "150", "150", "150", "250", "180", "180", "150", "150", "150", "150", "200", "180", "180", "180", "150", "150", "150", "150", "180", "180", "150", "150", "120", "200", "150", "120", "120", "120", "120", "120", "120", "120", "100", "100", "100", "80", "80", "80", "50", "40", "80", "250", "250", "250", "250", "250", "150", "150", "120", "120", "120", "120", "100", "80", "50", "40", "60", "60", "60", "60", "50", "50", "40", "40","60","90","50","50","90","60","80","100","280","550","600","200","50","50","40","30","30","30","70","70","70","30");
+            var name_ary = new Array("鮭魚生魚片", "黃金魚生魚片", "綜合生魚片", "旗魚生魚片", "和風鱈魚肝", "和風沙拉", "魚卵沙拉", "鮮蝦沙拉", "花枝沙拉", "蟹肉沙拉", "綜合沙拉", "冷筍沙拉", "醋味花枝", "蘆筍沙拉", "和風洋蔥", "涼拌韭菜", "綜合手卷", "蝦手卷", "蘆筍手卷", "花生豆腐", "綜合壽司", "海苔壽司", "豆皮壽司", "紅燒鰻魚", "奶油牛肉", "蠔油牛肉", "炒小卷", "炒鮮干貝", "炒三鮮", "海鮮娃娃菜", "蔥爆牛肉", "蔥爆松阪豬", "炒山豬肉", "空心菜炒牛肉", "空心菜炒羊肉", "炒鹹豬肉", "奶油雞片", "奶油白蝦", "鹹蛋豆腐", "宮保蝦仁", "糖醋排骨", "奶油杏鮑菇", "紅燒田雞", "鹹酥田雞", "豆瓣田雞", "洋蔥蝦仁", "炒花枝", "炒田雞", "炒蝦子", "宮保雞丁", "豆豉蚵", "炒娃娃菜", "蝦仁蛋", "丁香花生", "客家小炒", "鹹蛋絲瓜", "青龍丁香", "炒山蘇", "炒水蓮", "炒鴨腸", "黃瓜炒魷魚", "絲瓜炒蛤", "炒蛤仔", "炒蘆筍", "炒香菇", "炒螺肉", "炒山苦瓜", "炒金針花", "炒杏鮑菇", "蔥蛋", "菜豧蛋", "炒青菜", "鐵板牛小排", "鐵板牛柳", "鐵板鴕鳥肉", "鐵板松阪豬", "鐵板小卷", "鐵板豆腐", "鐵板雞柳", "鐵板蚵", "胡椒鳳螺", "三杯小卷", "三杯花枝", "三杯雞", "三杯下巴", "三杯田雞", "三杯杏鮑菇", "金沙鱈魚", "金沙小卷", "金沙蝦仁", "金沙花枝", "金沙豆腐", "金沙香菇", "金沙杏鮑菇", "金沙雞塊", "麻油腰子", "麻油松阪豬", "麻油田雞", "麻油蚵", "麻油雞絲", "鹹酥鱈魚", "炸小卷", "鹹酥龍珠", "鹹酥蝦", "鹹酥田雞", "鹹酥下巴", "鳳梨蝦球", "炸水晶魚", "一口蟹", "炸花枝", "炸蚵酥", "炸絲瓜", "炸香菇", "炸杏鮑菇", "炸魚排", "炸豬排", "炸蝦捲", "炸雞塊", "炸鰻魚", "烤鳳螺", "烤軟絲仔", "烤鮭魚頭", "味噌魚", "烤鹹豬肉", "烤松阪豬", "烤白蝦", "烤青魚", "烤魚肚", "烤花枝", "烤牛小排", "烤雞腿", "烤秋刀魚", "烤下巴", "鍋燒意麵", "鍋燒烏龍麵", "鍋燒雞絲麵", "鍋燒冬粉", "海產粥", "蝦仁炒飯", "炒意麵", "炒烏龍麵", "金牌啤酒", "百威啤酒", "百威(小) ", "台灣啤酒", "海尼根", "海尼根(小) ", "白虎啤酒", "新銀啤酒", "58高粱(小) ", "58高粱", "紅標高粱", "酒玉泉清酒", "烏龍茶", "麥仔茶", "每朝健康", "維他露P", "蘋果西打", "美粒果", "蔓越莓汁", "芭樂汁", "石蓮花汁", "礦泉水");
+            var price_ary = new Array("120", "120", "80", "80", "150", "100", "100", "100", "120", "80", "80", "80", "80", "60", "50", "40", "40", "35", "30", "40", "30", "30", "30", "250", "250", "180", "180", "180", "180", "180", "180", "180", "150", "150", "150", "150", "150", "150", "150", "150", "150", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120", "120", "100", "100", "100", "100", "100", "100", "100", "80", "80", "80", "80", "80", "80", "80", "80", "80", "60", "60", "50", "200", "200", "180", "180", "180", "150", "150", "150", "250", "180", "180", "150", "150", "150", "150", "200", "180", "180", "180", "150", "150", "150", "150", "180", "180", "150", "150", "120", "200", "150", "120", "120", "120", "120", "120", "120", "120", "100", "100", "100", "80", "80", "80", "50", "40", "80", "250", "250", "250", "250", "250", "150", "150", "120", "120", "120", "120", "100", "80", "50", "40", "60", "60", "60", "60", "50", "50", "40", "40", "60", "90", "50", "50", "90", "60", "80", "100", "280", "550", "600", "200", "50", "50", "40", "30", "30", "30", "70", "70", "70", "30");
             $(".btn_send_order").click(function () {
                 var table_number = $(".table_number").val();
                 if (table_number > 0 & table_number < 9) {
