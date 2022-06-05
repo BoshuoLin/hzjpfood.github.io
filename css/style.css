@@ -663,6 +663,15 @@
         justify-content: flex-start;
         padding: 20px 5px 0 5px;
     }
+    .meals >h2{
+        font-size: 1.2rem;
+    }
+    .meals >h3{
+        font-size: 1.1rem;
+    }
+    .meals >h4{
+        font-size: 1.2rem;
+    }
     .table_number,.phone_number{
         text-align:center;
         font-size: 1.25rem;
