@@ -2434,7 +2434,7 @@
                 if (phone_number.toString().length >= 7) {
                     $(".menuamoubt").each(function (e) {
                         if (parseInt($(this).text()) != 0) {
-                            item_list += "\n" + name_ary[e] + " : " + price_ary[e] + "元/份";
+                            item_list += "\n" + name_ary[e] + " : " + parseInt($(this).text()) + "份";
                             total_qty += parseInt($(this).text()) * price_ary[e];
                         }
                     });
